@@ -52,9 +52,9 @@ const rvObs = new IntersectionObserver(
     entries => entries.forEach(e => {
         if (e.isIntersecting) e.target.classList.add('in');
     }), {
-    threshold: 0.1,
-    rootMargin: '0px 0px -40px 0px'
-}
+        threshold: 0.1,
+        rootMargin: '0px 0px -40px 0px'
+    }
 );
 document.querySelectorAll('.rv').forEach(el => rvObs.observe(el));
 
@@ -75,7 +75,7 @@ $('.vidpop').magnificPopup({
 });
 
 /*  PRICING TOGGLE  */
-document.getElementById('ptog').addEventListener('change', function () {
+document.getElementById('ptog').addEventListener('change', function() {
     const y = this.checked;
     document.getElementById('ptogThumb').style.transform = y ? 'translateX(24px)' : 'translateX(0)';
     document.querySelectorAll('.pv').forEach(el => el.textContent = y ? el.dataset.y : el.dataset.m);
@@ -144,10 +144,10 @@ function doSignup() {
     const email = document.getElementById('signupEmail').value.trim();
     const pass = document.getElementById('signupPass').value;
     document.getElementById('signupErr').style.display = 'none';
-    if (!name) return showErrSignup('Lütfen isminizi girin.');
-    if (!email) return showErrSignup('Lütfen e-posta adresinizi girin.');
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return showErrSignup('Lütfen geçerli bir e-posta adresi girin.');
-    if (pass.length < 8) return showErrSignup('Parola en az 8 karakter olmalıdır.');
+    if (!name) return showErrSignup('Please enter your full name.');
+    if (!email) return showErrSignup('Please enter your email address.');
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return showErrSignup('Please enter a valid email address.');
+    if (pass.length < 8) return showErrSignup('Password must be at least 8 characters.');
     setLoading('signupBtn', true);
     setTimeout(() => {
         setLoading('signupBtn', false);
@@ -161,12 +161,12 @@ function doSignup() {
 
 function quickLogin(provider) {
     const names = {
-        google: 'Erhan Google',
-        microsoft: 'Erhan Microsoft'
+        google: 'Alex Johnson',
+        github: 'Dev User'
     };
     const emails = {
         google: 'user@gmail.com',
-        microsoft: 'user@microsoft.com'
+        github: 'user@github.com'
     };
     // close offcanvas
     bootstrap.Offcanvas.getInstance(document.getElementById('lofc'))?.hide();
@@ -274,7 +274,7 @@ function initOverviewChart() {
     g.addColorStop(1, 'rgba(59,130,246,0.02)');
     const labels = Array.from({
         length: 30
-    }, (_, i) => `${i + 1}`);
+    }, (_, i) => `${i+1}`);
     const data = [420, 480, 510, 440, 600, 580, 720, 690, 750, 810, 780, 860, 820, 900, 940, 880, 960, 1020, 1100, 1080, 1150, 1200, 1180, 1260, 1310, 1280, 1350, 1400, 1460, 1520];
     const {
         grid,
@@ -370,27 +370,27 @@ function initAnalyticsChart() {
         data: {
             labels: months,
             datasets: [{
-                label: 'Conversations',
-                data: [8200, 9100, 10400, 9800, 11200, 12800, 14100, 15600, 17200, 19000, 21400, 24800],
-                fill: true,
-                backgroundColor: g1,
-                borderColor: '#8b5cf6',
-                borderWidth: 2.5,
-                pointRadius: 3,
-                pointBackgroundColor: '#8b5cf6',
-                tension: .4
-            },
-            {
-                label: 'Resolved by AI',
-                data: [6560, 7644, 8736, 8330, 9632, 11264, 12408, 13728, 15136, 16720, 18834, 22016],
-                fill: true,
-                backgroundColor: g2,
-                borderColor: '#34d399',
-                borderWidth: 2,
-                pointRadius: 3,
-                pointBackgroundColor: '#34d399',
-                tension: .4
-            }
+                    label: 'Conversations',
+                    data: [8200, 9100, 10400, 9800, 11200, 12800, 14100, 15600, 17200, 19000, 21400, 24800],
+                    fill: true,
+                    backgroundColor: g1,
+                    borderColor: '#8b5cf6',
+                    borderWidth: 2.5,
+                    pointRadius: 3,
+                    pointBackgroundColor: '#8b5cf6',
+                    tension: .4
+                },
+                {
+                    label: 'Resolved by AI',
+                    data: [6560, 7644, 8736, 8330, 9632, 11264, 12408, 13728, 15136, 16720, 18834, 22016],
+                    fill: true,
+                    backgroundColor: g2,
+                    borderColor: '#34d399',
+                    borderWidth: 2,
+                    pointRadius: 3,
+                    pointBackgroundColor: '#34d399',
+                    tension: .4
+                }
             ]
         },
         options: {
@@ -519,8 +519,8 @@ function appendMsg(text, role) {
     const wrap = document.createElement('div');
     wrap.className = 'd-flex flex-column gap-1';
     wrap.innerHTML = `
-    <div class="msg msg-${role}" style="animation:fadeIn .3s ease">${escapeHtml(text).replace(/\n/g, '<br>')}</div>
-    <div class="msg-time" style="align-self:${role === 'ai' ? 'flex-start' : 'flex-end'};padding:0 4px">${role === 'ai' ? 'NexusAI' : 'You'} Â· ${time}</div>`;
+    <div class="msg msg-${role}" style="animation:fadeIn .3s ease">${escapeHtml(text).replace(/\n/g,'<br>')}</div>
+    <div class="msg-time" style="align-self:${role==='ai'?'flex-start':'flex-end'};padding:0 4px">${role==='ai'?'NexusAI':'You'} Â· ${time}</div>`;
     body.appendChild(wrap);
     body.scrollTop = body.scrollHeight;
 }
@@ -563,7 +563,7 @@ function escapeHtml(t) {
 }
 
 /*  AUTO RESIZE TEXTAREA  */
-document.getElementById('chatInp')?.addEventListener('input', function () {
+document.getElementById('chatInp')?.addEventListener('input', function() {
     this.style.height = 'auto';
     this.style.height = Math.min(this.scrollHeight, 100) + 'px';
 });

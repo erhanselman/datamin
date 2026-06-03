@@ -5,10 +5,12 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Mobildev Datamin</title>
-   <link rel="icon" type="image/x-icon" href="img/mobildev-favicon.ico">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
       rel="stylesheet">
+
+   <link rel="icon" type="image/x-icon" href="img/mobildev-favicon.ico">
+
    <!-- Bootstrap 5.3 -->
    <link href="css/bootstrap.min.css" rel="stylesheet" />
    <!-- AOS Animate on Scroll -->
@@ -21,11 +23,13 @@
    <link rel="stylesheet" href="css/magnific-popup.css" />
    <!-- Style CSS -->
    <link rel="stylesheet" href="css/style.css" />
+
 </head>
 
 <body>
    <!-- ======================== LANDING PAGE ======================== -->
    <div id="landing">
+
       <!-- NAVBAR -->
       <nav id="nbar">
          <div class="container">
@@ -36,10 +40,10 @@
                   <span>Datamin</span>
                </a>
                <div class="d-none d-lg-flex align-items-center gap-1 mx-auto">
-                  <a href="#features" class="nav-link">Features</a>
-                  <a href="#integrations" class="nav-link">Integrations</a>
-                  <a href="#pricing" class="nav-link">Pricing</a>
-                  <a href="#faq" class="nav-link">FAQ</a>
+                  <a href="#features" class="nav-link">Özellikler</a>
+                  <a href="#integrations" class="nav-link">Emtegrasyonlar</a>
+                  <a href="#pricing" class="nav-link">Fiyatlandırma</a>
+                  <a href="#faq" class="nav-link">SSS</a>
                </div>
                <div class="d-flex align-items-center gap-2">
                   <button class="boc d-flex align-items-center justify-content-center" id="thbtn"
@@ -47,13 +51,17 @@
                      <i class="fa-solid fa-sun" id="suni" style="display:none"></i>
                      <i class="fa-solid fa-moon" id="mooni"></i>
                   </button>
-                  <button class="boc px-3 py-2 d-none d-sm-flex align-items-center gap-1" data-bs-toggle="offcanvas"
+                  <!--   <button class="boc px-3 py-2 d-none d-sm-flex align-items-center gap-1" data-bs-toggle="offcanvas"
                      data-bs-target="#lofc" onclick="swTab('login')">
+                     <i class="fa-regular fa-user fa-sm"></i> Giriş
+                  </button> -->
+                  <button class="boc px-3 py-2 d-none d-sm-flex align-items-center gap-1" data-bs-target="#lofc"
+                     onclick="window.open('https://ucca.mobildev.in', '_blank');">
                      <i class="fa-regular fa-user fa-sm"></i> Giriş
                   </button>
                   <button class="bgrd btn px-3 py-2 d-none d-sm-flex align-items-center gap-1"
                      data-bs-toggle="offcanvas" data-bs-target="#lofc" onclick="swTab('signup')">
-                     Get Started <i class="fa-solid fa-arrow-right fa-sm"></i>
+                     Başlayın <i class="fa-solid fa-arrow-right fa-sm"></i>
                   </button>
                   <button class="boc d-lg-none px-2 py-2" id="mbtog" style="border-radius:10px">
                      <i class="fa-solid fa-bars" id="barIcon"></i>
@@ -63,6 +71,7 @@
             </div>
          </div>
       </nav>
+
       <div id="mbmenu">
          <a href="#features" class="nav-link d-block py-3 border-bottom"
             style="border-color:var(--bd)!important">Features</a>
@@ -78,6 +87,7 @@
                onclick="swTab('signup')">Get Started</button>
          </div>
       </div>
+
       <!-- HERO -->
       <section id="hero">
          <div class="aur aur-a" style="top:-80px;left:-120px"></div>
@@ -85,20 +95,21 @@
          <div class="aur aur-a" style="bottom:-80px;left:45%;transform:translateX(-50%);opacity:.4"></div>
          <div class="container position-relative" style="z-index:2">
             <div class="text-center">
-               <div class="afu" style="animation-delay:.05s"><span class="hbadge"><span class="bdot"></span>Now with
-                     GPT-4o &amp; Claude 3.5 integration</span></div>
-               <h1 class="h1 afu" style="animation-delay:.12s">Automate Your Business<br>with <span class="gt">AI
-                     Agents</span></h1>
+               <div class="afu" style="animation-delay:.05s"><span class="hbadge"><span class="bdot"></span>TÜBİTAK
+                     Ar-Ge destek programına dahil</span></div>
+               <h1 class="h1 afu" style="animation-delay:.12s"> <span class="gt">Yapay
+                     Zeka </span>destekli online akademinizi oluşturun</h1>
                <p class="mx-auto afu"
                   style="max-width:580px;font-size:clamp(.95rem,1.8vw,1.2rem);color:var(--tx2);margin-bottom:36px;animation-delay:.2s">
-                  Deploy intelligent AI agents that handle customer support, automate workflows, analyze data, and scale
-                  your operations © without writing a single line of code.</p>
+                  Akademinizi kurun, ister yapay zeka desteği ister kendi dökümanlarınız ile kurslarınızı oluşturun,
+                  öeğrenci veya çalışanlarınız için ölçümlerimerinizi yapın, blog ve etkinlikler oluşturun — hepsi tek
+                  platformda</p>
                <div class="d-flex align-items-center justify-content-center gap-3 flex-wrap afu"
                   style="animation-delay:.28s">
                   <button class="bgrd btn px-4 py-3 fs-6" data-bs-toggle="offcanvas" data-bs-target="#lofc"
-                     onclick="swTab('signup')">Start for Free © No Credit Card</button>
+                     onclick="swTab('signup')">Kayıt olun ve inceleyin..</button>
                   <a href="https://www.youtube.com/watch?v=ScMzIvxBSi4" class="boc btn px-4 py-3 fs-6 vidpop"><i
-                        class="fa-solid fa-circle-play me-2" style="color:var(--pur)"></i>Watch Demo</a>
+                        class="fa-solid fa-circle-play me-2" style="color:var(--pur)"></i>Video izle</a>
                </div>
                <div class="mt-5 afu" style="animation-delay:.4s">
                   <p
@@ -209,6 +220,7 @@
             </div>
          </div>
       </section>
+
       <!-- SOCIAL PROOF -->
       <section id="proof">
          <div class="container">
@@ -241,6 +253,7 @@
             </div>
          </div>
       </section>
+
       <!-- PROBLEM -->
       <section class="sp position-relative">
          <div class="aur aur-b" style="top:50%;right:-200px;transform:translateY(-50%)"></div>
@@ -289,11 +302,12 @@
             </div>
          </div>
       </section>
+
       <!-- FEATURES -->
       <section id="features" class="sp" style="background:var(--bg2)">
          <div class="container">
             <div class="text-center mb-5 rv">
-               <span class="slbl">Features</span>
+               <span class="slbl">Özellikler</span>
                <h2 class="stitle">Everything you need to <span class="gt">automate at scale</span></h2>
                <p class="ssub mx-auto">Powerful AI tools for teams that want to move faster and grow without limits.</p>
             </div>
@@ -355,6 +369,7 @@
             </div>
          </div>
       </section>
+
       <!-- HOW IT WORKS -->
       <section id="how" class="sp" style="background:var(--bg3)">
          <div class="container">
@@ -391,6 +406,7 @@
             </div>
          </div>
       </section>
+
       <!-- INTEGRATIONS -->
       <section id="integrations" class="sp position-relative">
          <div class="aur aur-b" style="top:50%;right:-200px;transform:translateY(-50%)"></div>
@@ -477,6 +493,7 @@
             </div>
          </div>
       </section>
+
       <!-- PRICING -->
       <section id="pricing" class="sp position-relative" style="background:var(--bg2)">
          <div class="aur aur-a" style="top:50%;left:50%;transform:translate(-50%,-50%)"></div>
@@ -570,6 +587,7 @@
             </div>
          </div>
       </section>
+
       <!-- TESTIMONIALS -->
       <section id="testimonials" class="sp">
          <div class="container">
@@ -641,6 +659,7 @@
             </div>
          </div>
       </section>
+
       <!-- FAQ -->
       <section id="faq" class="sp" style="background:var(--bg2)">
          <div class="container">
@@ -694,6 +713,7 @@
             </div>
          </div>
       </section>
+
       <!-- FINAL CTA -->
       <section id="cta">
          <div class="aur aur-a" style="top:50%;left:50%;transform:translate(-50%,-50%)"></div>
@@ -718,6 +738,7 @@
             </div>
          </div>
       </section>
+
       <!-- FOOTER -->
       <footer id="foot">
          <div class="container">
@@ -762,8 +783,10 @@
             </div>
          </div>
       </footer>
+
    </div>
    <!-- /landing -->
+
    <!-- ======================== LOGIN OFFCANVAS ======================== -->
    <div class="offcanvas offcanvas-end" tabindex="-1" id="lofc">
       <div class="offcanvas-header">
@@ -775,51 +798,60 @@
          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" style="filter:invert(1)"></button>
       </div>
       <div class="offcanvas-body p-4">
-         <div class="tab-switch"><button class="tab-sw-btn on" id="tabLogin" onclick="swTab('login')">Log
-               In</button><button class="tab-sw-btn" id="tabSignup" onclick="swTab('signup')">Sign Up</button></div>
+         <!--   <div class="tab-switch">
+            <button class="tab-sw-btn on" id="tabLogin" onclick="swTab('login')">Giriş Yap</button>
+            <button class="tab-sw-btn" id="tabSignup" onclick="swTab('signup')">Kayıt Ol</button>
+         </div> -->
+         <p class="text-center mt-3" style="font-size:.86rem;color:var(--tx3)">Datamin özellikleri incelemek ve
+            kullanımı hakkında
+            daha detaylı bilgiye ulaşmak için öncelikle <span style="color:var(--pur)">ücretsiz kayıt olun</span> </p>
+
          <!-- Login -->
          <div id="fLogin">
             <div id="loginErr" class="err-msg"><i class="fa-solid fa-circle-exclamation me-1"></i><span
-                  id="loginErrMsg">Invalid email or password.</span></div>
-            <label class="olbl"><i class="fa-regular fa-envelope me-1"></i>Email address</label>
-            <input class="oinp" type="email" id="loginEmail" placeholder="you@company.com">
-            <label class="olbl"><i class="fa-solid fa-lock me-1"></i>Password</label>
-            <input class="oinp" type="password" id="loginPass" placeholder="********">
+                  id="loginErrMsg">Geçersiz e-posta veya parola.</span></div>
+            <label class="olbl"><i class="fa-regular fa-envelope me-1"></i>E-posta adresiniz</label>
+            <input class="oinp" type="email" id="loginEmail" placeholder="ad.soyad@sirketadi.com">
+            <label class="olbl"><i class="fa-solid fa-lock me-1"></i>Parolanız</label>
+            <input class="oinp" type="password" id="loginPass" placeholder="parola">
             <div class="text-end mb-3" style="margin-top:-8px"><a href="#"
-                  style="font-size:.8rem;color:var(--pur)">Forgot password?</a></div>
-            <button class="bgrd btn w-100 py-3 fw-semibold fs-6" id="loginBtn" onclick="doLogin()">Log In <i
+                  style="font-size:.8rem;color:var(--pur)">Parolamı unuttum?</a></div>
+            <button class="bgrd btn w-100 py-3 fw-semibold fs-6" id="loginBtn" onclick="doLogin()">Giriş Yap <i
                   class="fa-solid fa-arrow-right ms-1 fa-sm"></i></button>
-            <div class="odiv">or continue with</div>
-            <button class="oauth" onclick="quickLogin('google')"><i class="fa-brands fa-google me-2"></i>Continue with
-               Google</button>
-            <button class="oauth" onclick="quickLogin('github')"><i class="fa-brands fa-github me-2"></i>Continue with
-               GitHub</button>
-            <p class="text-center mt-4" style="font-size:.82rem;color:var(--tx3)">Don't have an account? <a href="#"
-                  style="color:var(--pur)" onclick="swTab('signup');return false">Sign up free</a></p>
+            <div class="odiv">veya</div>
+            <button class="oauth" onclick="quickLogin('google')"><i class="fa-brands fa-google me-2"></i>
+               Google ile Devam Et</button>
+            <button class="oauth" onclick="quickLogin('microsoft')"><i class="fa-brands fa-microsoft me-2"></i>Microsoft
+               ile
+               Devam Et</button>
+            <p class="text-center mt-4" style="font-size:.82rem;color:var(--tx3)">Hesabınız yok mu? <a href="#"
+                  style="color:var(--pur)" onclick="swTab('signup');return false">Ücretsiz kayıt olun</a></p>
          </div>
          <!-- Sign Up -->
          <div id="fSignup" style="display:none">
             <div id="signupErr" class="err-msg"><i class="fa-solid fa-circle-exclamation me-1"></i><span
-                  id="signupErrMsg">Please fill all fields.</span></div>
-            <label class="olbl"><i class="fa-regular fa-user me-1"></i>Full name</label>
-            <input class="oinp" type="text" id="signupName" placeholder="Jane Smith">
-            <label class="olbl"><i class="fa-regular fa-envelope me-1"></i>Work email</label>
-            <input class="oinp" type="email" id="signupEmail" placeholder="you@company.com">
-            <label class="olbl"><i class="fa-solid fa-lock me-1"></i>Password</label>
-            <input class="oinp" type="password" id="signupPass" placeholder="Min. 8 characters">
-            <button class="bgrd btn w-100 py-3 fw-semibold fs-6" id="signupBtn" onclick="doSignup()">Create Free Account
+                  id="signupErrMsg">Lütfen tüm alanları doldurun.</span></div>
+            <label class="olbl"><i class="fa-regular fa-user me-1"></i>İsminiz</label>
+            <input class="oinp" type="text" id="signupName" placeholder="Ad Soyad">
+            <label class="olbl"><i class="fa-regular fa-envelope me-1"></i>E-posta adresiniz</label>
+            <input class="oinp" type="email" id="signupEmail" placeholder="ad.soyad@sirketadi.com">
+            <label class="olbl"><i class="fa-solid fa-lock me-1"></i>Parolanız</label>
+            <input class="oinp" type="password" id="signupPass" placeholder="Min. 8 karakter">
+            <button class="bgrd btn w-100 py-3 fw-semibold fs-6" id="signupBtn" onclick="doSignup()">Ücretsiz Hesap
+               Oluştur
                <i class="fa-solid fa-arrow-right ms-1 fa-sm"></i></button>
-            <div class="odiv">or sign up with</div>
-            <button class="oauth" onclick="quickLogin('google')"><i class="fa-brands fa-google me-2"></i>Continue with
-               Google</button>
-            <button class="oauth" onclick="quickLogin('github')"><i class="fa-brands fa-github me-2"></i>Continue with
-               GitHub</button>
-            <p class="text-center mt-3" style="font-size:.76rem;color:var(--tx3)">By signing up, you agree to our <a
-                  href="#" style="color:var(--pur)">Terms</a> &amp; <a href="#" style="color:var(--pur)">Privacy
-                  Policy</a></p>
+            <div class="odiv">veya</div>
+            <button class="oauth" onclick="quickLogin('google')"><i class="fa-brands fa-google me-2"></i>
+               Google ile Devam Et</button>
+            <button class="oauth" onclick="quickLogin('microsoft')"><i class="fa-brands fa-microsoft me-2"></i>Microsoft
+               ile Devam Et</button>
+            <p class="text-center mt-3" style="font-size:.76rem;color:var(--tx3)">Kayıt olduğunuzda <a
+                  href="https://www.mobildev.com/policy.asp" target="_blank" style="color:var(--pur)">Gizlilik
+                  Politikala ve Şartlarımızı</a><br> kabul etmiş olursunuz</a></p>
          </div>
       </div>
    </div>
+
    <!-- ======================== DASHBOARD ======================== -->
    <div id="dashboard">
       <!-- Sidebar -->
@@ -847,7 +879,7 @@
          </div>
          <div class="db-bottom">
             <button class="db-nl" onclick="doLogout()" style="color:#f87171"><i
-                  class="fa-solid fa-right-from-bracket"></i> Log Out</button>
+                  class="fa-solid fa-right-from-bracket"></i> Çıkış Yap</button>
          </div>
       </div>
       <!-- Top bar -->
@@ -858,8 +890,9 @@
          </button>
          <div class="db-top-search">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Search agents, conversations...">
+            <input type="text" placeholder="Ara...">
          </div>
+
          <div class="ms-auto d-flex align-items-center gap-3">
             <button class="boc d-flex align-items-center justify-content-center" id="dbThBtn"
                style="width:38px;height:38px;padding:0;border-radius:12px" onclick="toggleTheme()">
@@ -867,12 +900,15 @@
                <i class="fa-solid fa-moon" id="dbMoonI"></i>
             </button>
             <div style="position:relative" id="notifWrap">
-               <button class="boc d-flex align-items-center justify-content-center" id="bellBtn"
+
+               <!-- erhan: bildirimler butonu kapatıldı -->
+               <!--  <button class="boc d-flex align-items-center justify-content-center" id="bellBtn"
                   style="width:38px;height:38px;padding:0;border-radius:12px" onclick="toggleNotif(event)">
                   <i class="fa-regular fa-bell"></i>
                </button>
                <span id="notifBadge"
-                  style="position:absolute;top:5px;right:5px;width:9px;height:9px;border-radius:50%;background:#f87171;border:2px solid var(--bg)"></span>
+                  style="position:absolute;top:5px;right:5px;width:9px;height:9px;border-radius:50%;background:#f87171;border:2px solid var(--bg)"></span> -->
+
                <!-- Notification Dropdown -->
                <div class="db-dropdown" id="notifDropdown" style="right:0;min-width:360px">
                   <div class="dd-header">
@@ -968,6 +1004,7 @@
                            class="fa-solid fa-list me-1"></i>View All Notifications</button>
                   </div>
                </div>
+
             </div>
             <div style="position:relative" id="profileWrap">
                <div class="db-user-pill" id="userPill" onclick="toggleProfile(event)">
@@ -1021,11 +1058,12 @@
                      </div>
                      <div style="height:1px;background:var(--bd);margin:8px 16px"></div>
                      <button class="profile-menu-item danger" onclick="doLogout();toggleProfile()"><i
-                           class="fa-solid fa-right-from-bracket" style="color:#f87171"></i>Log Out</button>
+                           class="fa-solid fa-right-from-bracket" style="color:#f87171"></i>Çıkış Yap</button>
                   </div>
                </div>
             </div>
          </div>
+
       </div>
       <!-- Main Content -->
       <div class="db-main">
@@ -1034,10 +1072,11 @@
             <div class="db-section active" id="sec-overview">
                <div class="d-flex align-items-center justify-content-between mb-4">
                   <div>
-                     <h4 class="fw-700 mb-1" style="font-size:1.4rem;font-weight:700">Good morning, <span
-                           id="greetName">User</span> ??</h4>
-                     <p style="font-size:.875rem;color:var(--tx3);margin:0">Here's what's happening with your AI agents
-                        today.</p>
+                     <h4 class="fw-700 mb-1" style="font-size:1.4rem;font-weight:700">Merhaba, <span
+                           id="greetName">User</span> </h4>
+                     <p style="font-size:.875rem;color:var(--tx3);margin:0">Datamin hakkında tüm detaylı bilgileri bu
+                        bölümden ulaşabilirsin..
+                     </p>
                   </div>
                   <button class="bgrd btn px-3 py-2" style="font-size:.85rem;white-space:nowrap"
                      onclick="dbNav('chat',document.querySelector('[onclick*=chat]'))"><i
@@ -1789,6 +1828,7 @@
       <!-- /db-main -->
    </div>
    <!-- /dashboard -->
+
    <!-- ======================== SCRIPTS ======================== -->
    <!-- jQuery -->
    <script src="js/jquery-3.7.1.min.js"></script>
@@ -1802,6 +1842,7 @@
    <script src="js/jquery.magnific-popup.min.js"></script>
    <!-- Main js -->
    <script src="js/main.js"></script>
+
 </body>
 
 </html>
