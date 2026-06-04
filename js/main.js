@@ -633,3 +633,21 @@ setInterval(() => {
     box.insertBefore(item, box.firstChild);
     if (box.children.length > 5) box.removeChild(box.lastChild);
 }, 5000);
+
+
+
+/* erhan:backToTop */
+const backToTop = document.getElementById("backToTop");
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+        backToTop.classList.remove("d-none");
+    } else {
+        backToTop.classList.add("d-none");
+    }
+});
+backToTop.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
