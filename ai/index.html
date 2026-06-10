@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DataMin AI | Yapay Zeka Destekli Eğitim Platformu — Akademi, Kurs, Quiz, Flash Kart</title>
+  <meta name="description"
+    content="Akademi kurun, AI ile dakikalar içinde kurs, quiz ve flash kart oluşturun. Kurumsal IK, dershane, üniversite ve online akademiler için kapsamlı LMS platformu. 14 gün ücretsiz dene." />
+  <meta name="keywords"
+    content="online eğitim platformu, LMS Türkiye, yapay zeka kurs oluşturma, akademi kurma, flash kart, quiz sistemi, IK eğitimi, oryantasyon, dershane yazılımı" />
+  <link rel="canonical" href="https://datamin.ai/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="DataMin AI | Yapay Zeka Destekli Eğitim Platformu" />
+  <meta property="og:description"
+    content="Akademi kurun, AI ile kurs & quiz oluşturun. Kurumsal IK, dershane, üniversite ve online akademiler için kapsamlı LMS." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="tr_TR" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "DataMin AI",
+    "applicationCategory": "EducationApplication",
+    "operatingSystem": "Web, iOS, Android",
+    "inLanguage": "tr",
+    "description": "Yapay zeka destekli online eğitim ve LMS platformu.",
+    "featureList": ["AI Kurs Oluşturucu", "Flash Kart", "Quiz Motoru", "Canlı Ders", "Online Sınav", "Gamification", "Mobil Uygulama"]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Ana navigasyon">
+    <div class="navbar-inner">
+
+      <!-- Logo -->
+      <a href="/" class="navbar-logo" aria-label="DataMin AI Ana Sayfa">
+        <div class="logo-icon">🧠</div>
+        <span class="logo-text">Edvantage</span></span>
+      </a>
+
+      <!-- Desktop Menu -->
+      <div class="navbar-menu" role="menubar">
+        <a href="#features" class="nav-link" data-section="features" role="menuitem">Özellikler</a>
+        <a href="#pricing" class="nav-link" data-section="pricing" role="menuitem">Fiyatlar</a>
+
+        <!-- Dropdown -->
+        <div class="nav-dropdown" role="menuitem">
+          <div class="nav-dropdown-trigger" tabindex="0" aria-haspopup="true" aria-expanded="false">
+            Çözümler
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M6 9l6 6 6-6" />
+            </svg>
+          </div>
+          <div class="dropdown-menu" role="menu">
+            <a href="#panel-ik" class="dropdown-item" role="menuitem">
+              <div class="di-icon" style="background:rgba(239,68,68,0.12)">🏢</div>
+              <div class="di-text"><strong>Kurumsal & İK</strong><span>Oryantasyon, onboarding, zorunlu eğitim</span>
+              </div>
+            </a>
+            <a href="#panel-dershane" class="dropdown-item" role="menuitem">
+              <div class="di-icon" style="background:rgba(168,85,247,0.12)">🎓</div>
+              <div class="di-text"><strong>Dershaneler</strong><span>Canlı ders, sınav, öğrenci takibi</span></div>
+            </a>
+            <a href="#panel-etut" class="dropdown-item" role="menuitem">
+              <div class="di-icon" style="background:rgba(16,185,129,0.12)">📚</div>
+              <div class="di-text"><strong>Etüt Merkezleri</strong><span>AI analiz, flash kart, quiz</span></div>
+            </a>
+            <a href="#panel-uni" class="dropdown-item" role="menuitem">
+              <div class="di-icon" style="background:rgba(6,182,212,0.12)">🎒</div>
+              <div class="di-text"><strong>Üniversiteler</strong><span>Uzaktan eğitim altyapısı</span></div>
+            </a>
+            <a href="#panel-akademi" class="dropdown-item" role="menuitem">
+              <div class="di-icon" style="background:rgba(251,191,36,0.12)">💻</div>
+              <div class="di-text"><strong>Online Akademi</strong><span>Kurs sat, abonelik yönet</span></div>
+            </a>
+            <a href="#panel-koc" class="dropdown-item" role="menuitem">
+              <div class="di-icon" style="background:rgba(249,115,22,0.12)">🎯</div>
+              <div class="di-text"><strong>Eğitmenler & Koçlar</strong><span>Randevu, ders, ödeme</span></div>
+            </a>
+          </div>
+        </div>
+
+        <a href="#blog" class="nav-link" data-section="blog" role="menuitem">Blog</a>
+        <a href="#events" class="nav-link" data-section="events" role="menuitem">Etkinlikler</a>
+        <a href="#faq" class="nav-link" data-section="faq" role="menuitem">SSS</a>
+      </div>
+
+      <!-- Actions -->
+      <div class="navbar-actions">
+        <a href="#" class="btn-login">Giriş Yap</a>
+        <a href="#cta" class="btn btn-primary btn-sm">Ücretsiz Dene 🚀</a>
+      </div>
+
+      <!-- Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Menüyü aç/kapat" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu" role="menu">
+    <a href="#features" class="nav-link">Özellikler</a>
+    <a href="#solutions" class="nav-link">Çözümler</a>
+    <a href="#pricing" class="nav-link">Fiyatlar</a>
+    <a href="#blog" class="nav-link">Blog</a>
+    <a href="#events" class="nav-link">Etkinlikler</a>
+    <a href="#faq" class="nav-link">SSS</a>
+    <a href="#cta" class="btn btn-primary">Ücretsiz Demo Talep Et 🚀</a>
+  </div>
+
+  <main>
+    <!-- ============================================================
+     HERO SECTION
+     ============================================================ -->
+    <section id="hero" aria-label="Ana tanıtım">
+      <div class="hero-bg">
+        <div class="hero-blob hero-blob-1"></div>
+        <div class="hero-blob hero-blob-2"></div>
+        <div class="hero-blob hero-blob-3"></div>
+        <div class="hero-grid"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero-inner">
+          <!-- Content -->
+          <div class="hero-content">
+            <div class="tag hero-tag">
+              <span class="dot"></span>
+              Yapay Zeka Destekli LMS Platform
+            </div>
+
+            <h1 class="hero-title">
+              Akademinizi Kurun,<br>
+              <span class="gradient-text" id="typewriter">Kurs Oluşturucu</span>
+              <br>ile Büyütün
+            </h1>
+
+            <p class="hero-subtitle">
+              PDF'nizi kursa, dökümanınızı flash karta, içeriğinizi sınava dönüştürün.
+              Kurumsal IK'dan dershaneye, üniversiteden online akademiye —
+              tek platformda <strong>hepsi bir arada.</strong>
+            </p>
+
+            <div class="hero-actions">
+              <a href="#cta" class="btn btn-primary btn-lg" id="hero-cta-primary">
+                🚀 Ücretsiz Demo Talep Et
+              </a>
+              <a href="#how-it-works" class="btn btn-outline btn-lg" id="hero-cta-secondary">
+                ▶ Nasıl Çalışır?
+              </a>
+            </div>
+
+            <div class="hero-note">
+              <span>Kredi kartı gerekmez</span>
+              <span>14 gün ücretsiz</span>
+              <span>24 saatte aktif</span>
+              <span>KVKK uyumlu</span>
+            </div>
+          </div>
+
+          <!-- Visual Mockup -->
+          <div class="hero-visual" aria-hidden="true">
+            <!-- Floating Badges -->
+            <div class="floating-badge top-left">
+              <div class="badge-dot"></div>
+              <span>248 öğrenci canlıda</span>
+            </div>
+            <div class="floating-badge bottom-right">
+              <span class="badge-icon">🏆</span>
+              <span>Sertifika hazır!</span>
+            </div>
+            <div class="floating-badge center-right">
+              <span class="badge-icon">🤖</span>
+              <span>AI Quiz oluşturuldu ✓</span>
+            </div>
+
+            <!-- Dashboard Mockup -->
+            <div class="hero-mockup">
+              <div class="hero-mockup-inner">
+                <div class="mockup-bar">
+                  <div class="mockup-dot red"></div>
+                  <div class="mockup-dot yellow"></div>
+                  <div class="mockup-dot green"></div>
+                </div>
+                <div class="mockup-body">
+                  <div class="mockup-sidebar">
+                    <div class="mockup-nav-item active"><span class="icon">📊</span> Dashboard</div>
+                    <div class="mockup-nav-item"><span class="icon">📚</span> Kurslar</div>
+                    <div class="mockup-nav-item"><span class="icon">🤖</span> AI Studio</div>
+                    <div class="mockup-nav-item"><span class="icon">👥</span> Öğrenciler</div>
+                    <div class="mockup-nav-item"><span class="icon">📝</span> Sınavlar</div>
+                    <div class="mockup-nav-item"><span class="icon">🃏</span> Flash Kartlar</div>
+                    <div class="mockup-nav-item"><span class="icon">📅</span> Etkinlikler</div>
+                    <div class="mockup-nav-item"><span class="icon">📈</span> Raporlar</div>
+                  </div>
+                  <div class="mockup-content">
+                    <div class="mockup-stat-row">
+                      <div class="mockup-stat">
+                        <div class="s-label">Toplam Öğrenci</div>
+                        <div class="s-value">2,841</div>
+                      </div>
+                      <div class="mockup-stat">
+                        <div class="s-label">Aktif Kurs</div>
+                        <div class="s-value">47</div>
+                      </div>
+                      <div class="mockup-stat">
+                        <div class="s-label">Tamamlanma</div>
+                        <div class="s-value">%87</div>
+                      </div>
+                    </div>
+                    <div class="mockup-progress-group">
+                      <div class="mockup-progress-item">
+                        <div class="p-label"><span>Yazılım Geliştirme</span><span>%92</span></div>
+                        <div class="progress-bar">
+                          <div class="progress-fill" style="width:92%" data-width="92%"></div>
+                        </div>
+                      </div>
+                      <div class="mockup-progress-item">
+                        <div class="p-label"><span>Liderlik Programı</span><span>%78</span></div>
+                        <div class="progress-bar">
+                          <div class="progress-fill" style="width:78%" data-width="78%"></div>
+                        </div>
+                      </div>
+                      <div class="mockup-progress-item">
+                        <div class="p-label"><span>Oryantasyon 2024</span><span>%100</span></div>
+                        <div class="progress-bar">
+                          <div class="progress-fill" style="width:100%" data-width="100%"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mockup-ai-badge">
+                      🤖 AI bu hafta 128 soru ve 64 flash kart oluşturdu
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     STATS BAND
+     ============================================================ -->
+    <section id="stats" aria-label="Platform istatistikleri">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item animate-on-scroll">
+            <div class="stat-number" data-count="1200" data-suffix="+">1200+</div>
+            <div class="stat-label">Aktif Kurum</div>
+          </div>
+          <div class="stat-item animate-on-scroll animate-delay-1">
+            <div class="stat-number" data-count="500000" data-suffix="+">500.000+</div>
+            <div class="stat-label">Kayıtlı Öğrenci</div>
+          </div>
+          <div class="stat-item animate-on-scroll animate-delay-2">
+            <div class="stat-number" data-count="25000" data-suffix="+">25.000+</div>
+            <div class="stat-label">Oluşturulan Kurs</div>
+          </div>
+          <div class="stat-item animate-on-scroll animate-delay-3">
+            <div class="stat-number" data-count="99.9" data-suffix="%">99.9%</div>
+            <div class="stat-label">Platform Uptime</div>
+          </div>
+          <div class="stat-item animate-on-scroll animate-delay-4">
+            <div class="stat-number" data-count="4.9" data-suffix="/5">4.9/5</div>
+            <div class="stat-label">Müşteri Puanı</div>
+          </div>
+          <div class="stat-item animate-on-scroll animate-delay-5">
+            <div class="stat-number">7/24</div>
+            <div class="stat-label">Türkçe Destek</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     SOLUTIONS / TARGET AUDIENCE
+     ============================================================ -->
+    <section id="solutions" class="section section-light" aria-labelledby="solutions-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="tag" style="background:rgba(15,23,42,0.08); border-color:rgba(15,23,42,0.15); color:#0f172a;">Her
+            Kurum İçin Özel Çözüm</div>
+          <h2 id="solutions-title" style="color:#0f172a;">Kimler İçin Tasarlandı?</h2>
+          <p>İster 10 kişilik etüt merkezi, ister 10.000 çalışanlı holding — ihtiyacınıza özel modüller ve fiyatlar.</p>
+        </div>
+
+        <!-- Tabs -->
+        <div class="solutions-tabs animate-on-scroll" role="tablist">
+          <button class="solution-tab active" data-tab="ik" role="tab" aria-selected="true" id="tab-ik">🏢 Kurumsal &
+            İK</button>
+          <button class="solution-tab" data-tab="dershane" role="tab" aria-selected="false" id="tab-dershane">🎓
+            Dershaneler</button>
+          <button class="solution-tab" data-tab="etut" role="tab" aria-selected="false" id="tab-etut">📚 Etüt
+            Merkezleri</button>
+          <button class="solution-tab" data-tab="uni" role="tab" aria-selected="false" id="tab-uni">🎒
+            Üniversiteler</button>
+          <button class="solution-tab" data-tab="akademi" role="tab" aria-selected="false" id="tab-akademi">💻 Online
+            Akademi</button>
+          <button class="solution-tab" data-tab="koc" role="tab" aria-selected="false" id="tab-koc">🎯
+            Eğitmenler</button>
+        </div>
+
+        <!-- Panels -->
+        <div class="solution-panels animate-on-scroll animate-delay-2">
+
+          <!-- IK Panel -->
+          <div class="solution-panel active" id="panel-ik" role="tabpanel" aria-labelledby="tab-ik">
+            <div class="solution-card">
+              <div class="solution-card-left">
+                <div class="solution-card-icon" style="background:rgba(239,68,68,0.1); color:#ef4444;">🏢</div>
+                <h3>IK & Kurumsal Eğitim</h3>
+                <p>Yeni çalışanlardan yöneticilere — onboarding, oryantasyon, zorunlu eğitimler ve liderlik programları.
+                  AI ile içerik oluşturun, SCORM ile mevcut materyallerinizi entegre edin.</p>
+                <ul class="feature-list">
+                  <li class="feature-item">30-60-90 gün oryantasyon şablonu</li>
+                  <li class="feature-item">Zorunlu eğitim takibi ve sertifikasyon (İSG, yangın vs.)</li>
+                  <li class="feature-item">Çalışan performans ve gelişim analitiği</li>
+                  <li class="feature-item">HRMS / SAP / Oracle entegrasyonu</li>
+                  <li class="feature-item">Departman bazlı öğrenme yolları</li>
+                </ul>
+                <a href="#cta" class="btn btn-primary">Kurumsal Çözüme Bak →</a>
+              </div>
+              <div class="solution-card-right" style="background: linear-gradient(135deg, #0a1930, #1a1040);">
+                <div class="solution-visual">
+                  <div class="sv-card">
+                    <div class="sv-title">Oryantasyon Tamamlanma</div>
+                    <div class="sv-value">%94</div>
+                    <div class="sv-bar">
+                      <div class="sv-fill" style="width:94%" data-width="94%"></div>
+                    </div>
+                    <span class="sv-tag">✅ Hedef: %90 — Başarıldı!</span>
+                  </div>
+                  <div class="sv-card">
+                    <div class="sv-title">Bu Ay Tamamlanan Eğitim</div>
+                    <div class="sv-value">1.247 çalışan</div>
+                    <div class="sv-bar">
+                      <div class="sv-fill" style="width:78%" data-width="78%"></div>
+                    </div>
+                  </div>
+                  <div class="sv-card">
+                    <div class="sv-title">Aktif Öğrenme Yolu</div>
+                    <div class="sv-value">12 program</div>
+                    <span class="sv-tag">🤖 AI ile oluşturuldu</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dershane Panel -->
+          <div class="solution-panel" id="panel-dershane" role="tabpanel" aria-labelledby="tab-dershane">
+            <div class="solution-card">
+              <div class="solution-card-left">
+                <div class="solution-card-icon" style="background:rgba(168,85,247,0.1); color:#a855f7;">🎓</div>
+                <h3>Dershaneler & Özel Kurslar</h3>
+                <p>Yüz yüze eğitimin gücünü dijital platformla birleştirin. Canlı dersler, kayıtlı arşiv, sınav analizi
+                  ve veli bilgilendirme sistemleri tek çatı altında.</p>
+                <ul class="feature-list">
+                  <li class="feature-item">Canlı ders (HD video, sınırsız katılımcı)</li>
+                  <li class="feature-item">YKS / LGS / KPSS deneme sınavı şablonları</li>
+                  <li class="feature-item">Optik okuma ile fiziksel sınavları dijitalleştirme</li>
+                  <li class="feature-item">Veli bilgilendirme portalı (SMS/e-posta)</li>
+                  <li class="feature-item">Öğrenci devam ve ödev takibi</li>
+                </ul>
+                <a href="#cta" class="btn btn-primary">Dershane Çözümünü Keşfet →</a>
+              </div>
+              <div class="solution-card-right" style="background: linear-gradient(135deg, #1a0a30, #0a1930);">
+                <div class="solution-visual">
+                  <div class="sv-card">
+                    <div class="sv-title">Aktif Öğrenci</div>
+                    <div class="sv-value">847</div>
+                    <div class="sv-bar">
+                      <div class="sv-fill" style="width:85%" data-width="85%"></div>
+                    </div>
+                    <span class="sv-tag">⬆ %156 büyüme</span>
+                  </div>
+                  <div class="sv-card">
+                    <div class="sv-title">Bugünkü Canlı Ders</div>
+                    <div class="sv-value">14 sınıf</div>
+                    <span class="sv-tag" style="background:rgba(239,68,68,0.15); color:#ef4444;">🔴 CANLI</span>
+                  </div>
+                  <div class="sv-card">
+                    <div class="sv-title">YKS Başarı Oranı</div>
+                    <div class="sv-value">%51</div>
+                    <div class="sv-bar">
+                      <div class="sv-fill" style="width:51%" data-width="51%"></div>
+                    </div>
+                    <span class="sv-tag">📈 Geçen yıl: %28</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Etüt Panel -->
+          <div class="solution-panel" id="panel-etut" role="tabpanel" aria-labelledby="tab-etut">
+            <div class="solution-card">
+              <div class="solution-card-left">
+                <div class="solution-card-icon" style="background:rgba(16,185,129,0.1); color:#10b981;">📚</div>
+                <h3>Etüt Merkezleri</h3>
+                <p>Öğrencilerin zayıf konularını AI ile otomatik tespit edin. Spaced repetition (aralıklı tekrar)
+                  algoritmalı flash kartlar ile kalıcı öğrenme sağlayın.</p>
+                <ul class="feature-list">
+                  <li class="feature-item">AI ile kişiselleştirilmiş çalışma planı</li>
+                  <li class="feature-item">Flash kart — spaced repetition algoritması</li>
+                  <li class="feature-item">Günlük mini quiz ve pratik soru havuzu</li>
+                  <li class="feature-item">Eksik konu analizi ve materyal önerisi</li>
+                  <li class="feature-item">Gamification: rozet, puan, sıralama</li>
+                </ul>
+                <a href="#cta" class="btn btn-primary">Etüt Modülünü İncele →</a>
+              </div>
+              <div class="solution-card-right" style="background: linear-gradient(135deg, #0a1a12, #0a1930);">
+                <div class="solution-visual">
+                  <div class="sv-card">
+                    <div class="sv-title">Bu Haftaki Flash Kart</div>
+                    <div class="sv-value">1.240 kart</div>
+                    <span class="sv-tag">🤖 AI oluşturdu</span>
+                  </div>
+                  <div class="sv-card">
+                    <div class="sv-title">Ortalama Hatırlama Oranı</div>
+                    <div class="sv-value">%83</div>
+                    <div class="sv-bar">
+                      <div class="sv-fill" style="width:83%" data-width="83%"></div>
+                    </div>
+                    <span class="sv-tag">📈 +%40 iyileşme</span>
+                  </div>
+                  <div class="sv-card">
+                    <div class="sv-title">Bugünkü Quiz Tamamlama</div>
+                    <div class="sv-value">234 öğrenci</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Üniversite Panel -->
+          <div class="solution-panel" id="panel-uni" role="tabpanel" aria-labelledby="tab-uni">
+            <div class="solution-card">
+              <div class="solution-card-left">
+                <div class="solution-card-icon" style="background:rgba(6,182,212,0.1); color:#06b6d4;">🎒</div>
+                <h3>Üniversiteler & Yükseköğretim</h3>
+                <p>Kampüs yönetim sistemleriyle entegre, uzaktan eğitim altyapısı. Ödev, vize, final ve intihal kontrolü
+                  — tamamı tek platformda.</p>
+                <ul class="feature-list">
+                  <li class="feature-item">ERP / Öğrenci bilgi sistemi entegrasyonu</li>
+                  <li class="feature-item">Kurs kataloğu ve dönem yönetimi</li>
+                  <li class="feature-item">Ödev, proje, vize/final modülü</li>
+                  <li class="feature-item">QR kodlu dijital diploma & sertifika</li>
+                  <li class="feature-item">Çok dil desteği (Erasmus uyumlu)</li>
+                </ul>
+                <a href="#cta" class="btn btn-primary">Üniversite Çözümünü Keşfet →</a>
+              </div>
+              <div class="solution-card-right" style="background: linear-gradient(135deg, #0a1828, #0a1930);">
+                <div class="solution-visual">
+                  <div class="sv-card">
+                    <div class="sv-title">Aktif Öğrenci (Bu Dönem)</div>
+                    <div class="sv-value">4.280</div>
+                    <div class="sv-bar">
+                      <div class="sv-fill" style="width:88%" data-width="88%"></div>
+                    </div>
+                  </div>
+                  <div class="sv-card">
+                    <div class="sv-title">Açık Kurs</div>
+                    <div class="sv-value">186 ders</div>
+                    <span class="sv-tag">📋 3 fakülte</span>
+                  </div>
+                  <div class="sv-card">
+                    <div class="sv-title">Teslim Bekleyen Ödev</div>
+                    <div class="sv-value">48</div>
+                    <span class="sv-tag" style="background:rgba(249,115,22,0.15); color:#f97316;">⚠ Son 3 gün</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Online Akademi Panel -->
+          <div class="solution-panel" id="panel-akademi" role="tabpanel" aria-labelledby="tab-akademi">
+            <div class="solution-card">
+              <div class="solution-card-left">
+                <div class="solution-card-icon" style="background:rgba(251,191,36,0.1); color:#fbbf24;">💻</div>
+                <h3>Online Akademi Kurucuları</h3>
+                <p>Sıfırdan online akademinizi kurun. Markalı portal, kurs satışı, abonelik sistemi ve affiliate
+                  programıyla gelir modelinizi oluşturun.</p>
+                <ul class="feature-list">
+                  <li class="feature-item">Özel domain ve markalı portal (white label)</li>
+                  <li class="feature-item">Kurs satışı, abonelik ve bundle yönetimi</li>
+                  <li class="feature-item">Affiliate (ortaklık) ve komisyon sistemi</li>
+                  <li class="feature-item">Drip content (zamanlı içerik açma)</li>
+                  <li class="feature-item">E-posta pazarlama entegrasyonu</li>
+                </ul>
+                <a href="#cta" class="btn btn-primary">Akademi Kurmaya Başla →</a>
+              </div>
+              <div class="solution-card-right" style="background: linear-gradient(135deg, #1a1200, #0a1930);">
+                <div class="solution-visual">
+                  <div class="sv-card">
+                    <div class="sv-title">Bu Ayki Gelir</div>
+                    <div class="sv-value">₺112.000</div>
+                    <span class="sv-tag">📈 +%47 büyüme</span>
+                  </div>
+                  <div class="sv-card">
+                    <div class="sv-title">Satılan Kurs</div>
+                    <div class="sv-value">4.800 adet</div>
+                    <div class="sv-bar">
+                      <div class="sv-fill" style="width:92%" data-width="92%"></div>
+                    </div>
+                  </div>
+                  <div class="sv-card">
+                    <div class="sv-title">NPS Skoru</div>
+                    <div class="sv-value">84</div>
+                    <span class="sv-tag" style="background:rgba(34,197,94,0.15); color:#22c55e;">🌟 Mükemmel</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Koç Panel -->
+          <div class="solution-panel" id="panel-koc" role="tabpanel" aria-labelledby="tab-koc">
+            <div class="solution-card">
+              <div class="solution-card-left">
+                <div class="solution-card-icon" style="background:rgba(249,115,22,0.1); color:#f97316;">🎯</div>
+                <h3>Bireysel Eğitmenler & Koçlar</h3>
+                <p>Uzmanlığınızı dijital ürüne dönüştürün. Randevu yönetiminden ödeme tahsilatına, birebir koçluktan
+                  grup programlarına tek platform.</p>
+                <ul class="feature-list">
+                  <li class="feature-item">Birebir ve grup koçluk seans yönetimi</li>
+                  <li class="feature-item">Takvim ve randevu entegrasyonu</li>
+                  <li class="feature-item">Kişiselleştirilmiş öğrenme yolu tasarlama</li>
+                  <li class="feature-item">Stripe / PayTR / iyzico ödeme entegrasyonu</li>
+                  <li class="feature-item">Öğrenci ilerleme raporları</li>
+                </ul>
+                <a href="#cta" class="btn btn-primary">Eğitmen Planını İncele →</a>
+              </div>
+              <div class="solution-card-right" style="background: linear-gradient(135deg, #1a0a00, #0a1930);">
+                <div class="solution-visual">
+                  <div class="sv-card">
+                    <div class="sv-title">Aktif Öğrenci</div>
+                    <div class="sv-value">64</div>
+                    <span class="sv-tag">📅 Bu hafta 12 seans</span>
+                  </div>
+                  <div class="sv-card">
+                    <div class="sv-title">Aylık Gelir</div>
+                    <div class="sv-value">₺28.000</div>
+                    <div class="sv-bar">
+                      <div class="sv-fill" style="width:70%" data-width="70%"></div>
+                    </div>
+                  </div>
+                  <div class="sv-card">
+                    <div class="sv-title">Kurs Tamamlama</div>
+                    <div class="sv-value">%91</div>
+                    <span class="sv-tag" style="background:rgba(34,197,94,0.15); color:#22c55e;">⭐ Sektör ortalaması:
+                      %47</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /solution-panels -->
+      </div>
+    </section>
+
+    <!-- ============================================================
+     AI FEATURES
+     ============================================================ -->
+    <section id="ai-features" class="section section-dark" aria-labelledby="ai-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="tag">🤖 Yapay Zeka</div>
+          <h2 id="ai-title">AI ile Saatler → Saniyeler</h2>
+          <p>Manuel içerik oluşturma devri bitti. Dökümanınızı yükleyin, AI geri kalanını yapsın.</p>
+        </div>
+
+        <div class="ai-features-grid">
+
+          <!-- Featured: Kurs Oluşturucu -->
+          <div class="ai-feature-card featured animate-on-scroll">
+            <div class="ai-card-content">
+              <div class="ai-card-icon">🪄</div>
+              <h3>AI Kurs Oluşturucu</h3>
+              <p>PDF, Word veya PowerPoint yükleyin. AI otomatik olarak kurs yapısı, üniteler, hedefler ve açıklamalar
+                oluştursun. <strong>8 dakikada profesyonel kurs.</strong></p>
+              <div class="ai-card-tags">
+                <span class="ai-tag">PDF → Kurs</span>
+                <span class="ai-tag">DOCX → Ünite</span>
+                <span class="ai-tag">URL → İçerik</span>
+                <span class="ai-tag">50+ Dil</span>
+              </div>
+            </div>
+            <div class="ai-card-visual">
+              <div class="workflow-steps">
+                <div class="workflow-step">
+                  <div class="step-num">1</div>
+                  <span>📄 PDF veya döküman yükle</span>
+                </div>
+                <div class="workflow-arrow">↓</div>
+                <div class="workflow-step">
+                  <div class="step-num">2</div>
+                  <span>🤖 AI içeriği analiz et</span>
+                </div>
+                <div class="workflow-arrow">↓</div>
+                <div class="workflow-step">
+                  <div class="step-num">3</div>
+                  <span>📚 Kurs yapısı otomatik oluştu</span>
+                </div>
+                <div class="workflow-arrow">↓</div>
+                <div class="workflow-step">
+                  <div class="step-num">4</div>
+                  <span>✅ Düzenle & Yayına al</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quiz Oluşturucu -->
+          <div class="ai-feature-card animate-on-scroll animate-delay-1">
+            <div class="ai-card-icon">❓</div>
+            <h3>AI Quiz Oluşturucu</h3>
+            <p>İçerikten otomatik çoktan seçmeli, doğru/yanlış ve açık uç sorular oluşturun. Zorluk seviyesi
+              ayarlanabilir.</p>
+            <div class="ai-card-demo">
+              <div class="demo-line">📝 Input: "Oryantasyon El Kitabı"</div>
+              <div class="demo-arrow">→ 45 soru / 3 seviye oluşturuldu</div>
+              <div class="demo-arrow">→ Soru havuzu otomatik kategorilendi</div>
+            </div>
+            <div class="ai-card-tags">
+              <span class="ai-tag">10+ Soru Tipi</span>
+              <span class="ai-tag">Otomatik Puan</span>
+            </div>
+          </div>
+
+          <!-- Flash Kart -->
+          <div class="ai-feature-card animate-on-scroll animate-delay-2">
+            <div class="ai-card-icon">🃏</div>
+            <h3>AI Flash Kart Sistemi</h3>
+            <p>Spaced repetition (Ebbinghaus yöntemi) ile kalıcı öğrenme. Öğrencinin zayıf olduğu kartlar otomatik
+              tekrar.</p>
+            <div class="ai-card-demo">
+              <div class="demo-line">📚 120 sayfa ders notu</div>
+              <div class="demo-arrow">→ 340 flash kart oluşturuldu</div>
+              <div class="demo-arrow">→ Hatırlama oranı: %83 ⬆</div>
+            </div>
+            <div class="ai-card-tags">
+              <span class="ai-tag">Spaced Repetition</span>
+              <span class="ai-tag">Offline Erişim</span>
+            </div>
+          </div>
+
+          <!-- AI Chatbot -->
+          <div class="ai-feature-card animate-on-scroll animate-delay-1">
+            <div class="ai-card-icon">🗣️</div>
+            <h3>AI Ders Asistanı</h3>
+            <p>Kurs içinde yerleşik AI chatbot. Öğrenciler soru sorar, AI modül içeriğine göre anında yanıtlar.</p>
+            <div class="ai-card-demo">
+              <div class="demo-line">🙋 "Bu konu sınavda çıkar mı?"</div>
+              <div class="demo-arrow">→ AI yanıtlıyor + ilgili üniteye yönlendiriyor</div>
+            </div>
+            <div class="ai-card-tags">
+              <span class="ai-tag">7/24 Aktif</span>
+              <span class="ai-tag">Türkçe</span>
+            </div>
+          </div>
+
+          <!-- Analitik -->
+          <div class="ai-feature-card animate-on-scroll animate-delay-2">
+            <div class="ai-card-icon">📊</div>
+            <h3>Öğrenme Analitiği</h3>
+            <p>Hangi modülde öğrenci kaybedildiğini, başarı tahminini ve risk altındaki öğrencileri AI ile otomatik
+              tespit edin.</p>
+            <div class="ai-card-demo">
+              <div class="demo-line">⚠ Risk Uyarısı: 12 öğrenci</div>
+              <div class="demo-arrow">→ Erken müdahale önerisi hazırlandı</div>
+            </div>
+            <div class="ai-card-tags">
+              <span class="ai-tag">Dropout Analizi</span>
+              <span class="ai-tag">Haftalık Rapor</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     PLATFORM FEATURES (all modules)
+     ============================================================ -->
+    <section id="features" class="section" style="background:var(--navy-700);" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="tag">Özellikler</div>
+          <h2 id="features-title">25+ Güçlü Özellik, <span class="text-accent">Tek Platform</span></h2>
+          <p>İhtiyacınız olan her şey burada — ek araç, ek maliyet, ek karmaşıklık yok.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card animate-on-scroll"><span class="fc-icon">📹</span>
+            <h4>Canlı Ders</h4>
+            <p>HD video, sınırsız katılımcı, kayıt özelliği</p>
+          </div>
+          <div class="feature-card animate-on-scroll animate-delay-1"><span class="fc-icon">🎬</span>
+            <h4>Video Kütüphanesi</h4>
+            <p>Güvenli video hosting, hız kontrolü, bölüm atlatma</p>
+          </div>
+          <div class="feature-card animate-on-scroll animate-delay-2"><span class="fc-icon">📝</span>
+            <h4>Online Sınav</h4>
+            <p>Güvenli ortam, webcam gözetimi, anında analiz</p>
+          </div>
+          <div class="feature-card animate-on-scroll animate-delay-3"><span class="fc-icon">🃏</span>
+            <h4>Flash Kartlar</h4>
+            <p>AI destekli, spaced repetition algoritması</p>
+          </div>
+          <div class="feature-card animate-on-scroll"><span class="fc-icon">🧩</span>
+            <h4>Quiz Modülü</h4>
+            <p>10+ soru tipi, zamanlı, puan tablosu</p>
+          </div>
+          <div class="feature-card animate-on-scroll animate-delay-1"><span class="fc-icon">🏆</span>
+            <h4>Dijital Sertifika</h4>
+            <p>QR kodlu, doğrulanabilir, markalı</p>
+          </div>
+          <div class="feature-card animate-on-scroll animate-delay-2"><span class="fc-icon">📊</span>
+            <h4>Optik Okuma</h4>
+            <p>Fiziksel sınavları tarayın, saniyede analiz</p>
+          </div>
+          <div class="feature-card animate-on-scroll animate-delay-3"><span class="fc-icon">🎮</span>
+            <h4>Gamification</h4>
+            <p>Rozet, seviye, liderlik tablosu, ödüller</p>
+          </div>
+          <div class="feature-card animate-on-scroll"><span class="fc-icon">📱</span>
+            <h4>Mobil Uygulama</h4>
+            <p>iOS & Android, offline içerik indirme</p>
+          </div>
+          <div class="feature-card animate-on-scroll animate-delay-1"><span class="fc-icon">💳</span>
+            <h4>Ödeme Sistemi</h4>
+            <p>Kurs satışı, abonelik, taksit, kupon</p>
+          </div>
+          <div class="feature-card animate-on-scroll animate-delay-2"><span class="fc-icon">📧</span>
+            <h4>E-posta Otomasyonu</h4>
+            <p>Kayıt, hatırlatma, sertifika, drip kampanya</p>
+          </div>
+          <div class="feature-card animate-on-scroll animate-delay-3"><span class="fc-icon">📆</span>
+            <h4>Etkinlik Yönetimi</h4>
+            <p>Webinar, canlı etkinlik, takvim entegrasyonu</p>
+          </div>
+          <div class="feature-card animate-on-scroll"><span class="fc-icon">📰</span>
+            <h4>Blog Modülü</h4>
+            <p>SEO uyumlu, kategori, yorum, yazı takvimi</p>
+          </div>
+          <div class="feature-card animate-on-scroll animate-delay-1"><span class="fc-icon">🎙️</span>
+            <h4>Podcast Modülü</h4>
+            <p>RSS feed, bölüm yönetimi, dinleme analitik</p>
+          </div>
+          <div class="feature-card animate-on-scroll animate-delay-2"><span class="fc-icon">👥</span>
+            <h4>Topluluk Forum</h4>
+            <p>Tartışma, soru-cevap, moderasyon araçları</p>
+          </div>
+          <div class="feature-card animate-on-scroll animate-delay-3"><span class="fc-icon">🔒</span>
+            <h4>KVKK Uyumlu</h4>
+            <p>Türkiye sunucuları, ISO 27001, SSL 256-bit</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     HOW IT WORKS
+     ============================================================ -->
+    <section id="how-it-works" class="section section-darker" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="tag">Nasıl Çalışır?</div>
+          <h2 id="how-title">4 Adımda <span class="text-accent">24 Saatte Yayında</span></h2>
+          <p>Karmaşık kurulum süreçleri yok. Adım adım eşliğimizle dakikalar içinde başlayın.</p>
+        </div>
+
+        <div class="steps-container">
+          <div class="steps-connector" aria-hidden="true"></div>
+          <div class="steps-grid">
+            <div class="step-card animate-on-scroll">
+              <div class="step-num-wrap"><span class="step-icon">🏗️</span></div>
+              <h3>Akademini Kur</h3>
+              <p>Platform kaydı, marka özelleştirmesi, alt alan adı ve öğrenci kayıt formunu ayarla.</p>
+              <span class="step-time">⏱ 5 dakika</span>
+            </div>
+            <div class="step-card animate-on-scroll animate-delay-1">
+              <div class="step-num-wrap"><span class="step-icon">🤖</span></div>
+              <h3>AI ile İçerik Oluştur</h3>
+              <p>PDF yükle, AI kurs yapısını çıkarsın. Quiz ve flash kartlar otomatik hazırlansın.</p>
+              <span class="step-time">⏱ 8 dakika</span>
+            </div>
+            <div class="step-card animate-on-scroll animate-delay-2">
+              <div class="step-num-wrap"><span class="step-icon">📢</span></div>
+              <h3>Yayına Al & Davet Et</h3>
+              <p>Ödeme sistemini aktif et, kayıt linkini paylaş, ilk etkinliğini duyur.</p>
+              <span class="step-time">⏱ 1 saat</span>
+            </div>
+            <div class="step-card animate-on-scroll animate-delay-3">
+              <div class="step-num-wrap"><span class="step-icon">📈</span></div>
+              <h3>Büyüt & Ölç</h3>
+              <p>AI analitiği ile başarısız alanları tespit et, sertifika dağıt, rapor indir.</p>
+              <span class="step-time">⏱ Sürekli</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     BLOG
+     ============================================================ -->
+    <section id="blog" class="section section-dark" aria-labelledby="blog-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="tag">📰 Blog</div>
+          <h2 id="blog-title">Eğitim & Teknoloji <span class="text-accent">Blogu</span></h2>
+          <p>Uzman içerikler, pratik rehberler ve başarı hikayeleri — sektörün önünde olun.</p>
+        </div>
+
+        <div class="blog-grid">
+          <article class="blog-card animate-on-scroll">
+            <div class="blog-card-image" style="background: linear-gradient(135deg, #0d2244, #1a1040);">🤖</div>
+            <div class="blog-card-body">
+              <span class="blog-category">Yapay Zeka & Eğitim</span>
+              <h3>AI ile 10 Dakikada Profesyonel Kurs Oluşturmanın 7 Yolu</h3>
+              <p>PDF'nizi AI'ya yükleyin ve dakikalar içinde tam yapılandırılmış bir kurs elde edin. Pratik ipuçları ve
+                gerçek örnekler.</p>
+              <div class="blog-meta">
+                <span>5 dk okuma · 2 Haziran 2026</span>
+                <a href="#" class="read-more">Oku →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-card animate-on-scroll animate-delay-1">
+            <div class="blog-card-image" style="background: linear-gradient(135deg, #1a0a30, #0a1a12);">🃏</div>
+            <div class="blog-card-body">
+              <span class="blog-category">Öğrenme Bilimleri</span>
+              <h3>Flash Kart mı, Quiz mi? Hangi Yöntem Daha Kalıcı Öğrenme Sağlar?</h3>
+              <p>Nörobilim araştırmalarına dayanan bu karşılaştırmada hangi yöntemin ne zaman kullanılması gerektiğini
+                açıklıyoruz.</p>
+              <div class="blog-meta">
+                <span>7 dk okuma · 28 Mayıs 2026</span>
+                <a href="#" class="read-more">Oku →</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="blog-card animate-on-scroll animate-delay-2">
+            <div class="blog-card-image" style="background: linear-gradient(135deg, #1a0800, #0a1930);">🏢</div>
+            <div class="blog-card-body">
+              <span class="blog-category">Kurumsal Eğitim</span>
+              <h3>Dijital Oryantasyonla Çalışan Bağlılığını %47 Artıran 5 Şirketin Hikayesi</h3>
+              <p>Gerçek vaka çalışmaları: onboarding sürecini dijitalleştiren şirketlerin elde ettiği somut sonuçlar.
+              </p>
+              <div class="blog-meta">
+                <span>10 dk okuma · 22 Mayıs 2026</span>
+                <a href="#" class="read-more">Oku →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center" style="margin-top:40px;">
+          <a href="#" class="btn btn-outline">Tüm Yazılara Gözat →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     EVENTS
+     ============================================================ -->
+    <section id="events" class="section" style="background:var(--navy-700);" aria-labelledby="events-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="tag">📅 Etkinlikler</div>
+          <h2 id="events-title">Yaklaşan <span class="text-accent">Webinarlar & Etkinlikler</span></h2>
+          <p>Ücretsiz canlı demolar, uzman webinarları ve eğitimci buluşmaları.</p>
+        </div>
+
+        <div class="events-grid">
+          <div class="event-card animate-on-scroll">
+            <div class="event-date-box">
+              <div class="month">HAZ</div>
+              <div class="day">12</div>
+            </div>
+            <div class="event-content">
+              <div class="event-badge live">
+                <div class="live-dot"></div>CANLI WEBINAR
+              </div>
+              <h3>AI ile 10 Dakikada Kurs Oluşturma — Canlı Demo</h3>
+              <p>Platform üzerinde gerçek zamanlı kurs oluşturma demosu ve Q&A.</p>
+              <div class="event-meta">
+                <span>🕐 14:00 – 15:00</span>
+                <span>👥 312 katılımcı</span>
+              </div>
+              <a href="#cta" class="btn btn-primary btn-sm" id="event-cta-1">Ücretsiz Kayıt Ol</a>
+            </div>
+          </div>
+
+          <div class="event-card animate-on-scroll animate-delay-1">
+            <div class="event-date-box">
+              <div class="month">HAZ</div>
+              <div class="day">18</div>
+            </div>
+            <div class="event-content">
+              <div class="event-badge webinar">WEBINAR</div>
+              <h3>IK Profesyonelleri için Dijital Oryantasyon Stratejileri</h3>
+              <p>Türkiye'den 3 büyük şirketin IK direktörleri deneyimlerini paylaşıyor.</p>
+              <div class="event-meta">
+                <span>🕐 15:00 – 16:30</span>
+                <span>👥 187 katılımcı</span>
+              </div>
+              <a href="#cta" class="btn btn-primary btn-sm" id="event-cta-2">Ücretsiz Kayıt Ol</a>
+            </div>
+          </div>
+
+          <div class="event-card animate-on-scroll animate-delay-2">
+            <div class="event-date-box">
+              <div class="month">HAZ</div>
+              <div class="day">25</div>
+            </div>
+            <div class="event-content">
+              <div class="event-badge workshop">WORKSHOP</div>
+              <h3>Uygulamalı: Flash Kart & Quiz ile Öğrenme Tasarımı</h3>
+              <p>Eğitim tasarımcıları için interaktif workshop — katılımcılar kendi flash kartlarını oluşturuyor.</p>
+              <div class="event-meta">
+                <span>🕐 10:00 – 12:00</span>
+                <span>👥 48 kontenjan</span>
+              </div>
+              <a href="#cta" class="btn btn-primary btn-sm" id="event-cta-3">Ücretsiz Kayıt Ol</a>
+            </div>
+          </div>
+
+          <div class="event-card animate-on-scroll animate-delay-3">
+            <div class="event-date-box">
+              <div class="month">TEM</div>
+              <div class="day">5</div>
+            </div>
+            <div class="event-content">
+              <div class="event-badge free">ÜCRETSİZ DEMO</div>
+              <h3>Platformu 45 Dakikada Keşfet — Birebir Demo</h3>
+              <p>Uzman ekibimizle birebir görüşme. Sorularınızı sorun, ihtiyaçlarınıza özel demo alın.</p>
+              <div class="event-meta">
+                <span>🕐 Seçtiğiniz saat</span>
+                <span>👤 Birebir</span>
+              </div>
+              <a href="#cta" class="btn btn-primary btn-sm" id="event-cta-4">Demo Randevusu Al</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     TESTIMONIALS
+     ============================================================ -->
+    <section id="testimonials" class="section section-dark" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="tag">⭐ Referanslar</div>
+          <h2 id="testimonials-title">Müşterilerimiz <span class="text-accent">Ne Diyor?</span></h2>
+          <p>1.200+ kurumun güvendiği platform. Gerçek sonuçlar, gerçek insanlar.</p>
+        </div>
+
+        <div class="testimonials-slider animate-on-scroll">
+          <div class="testimonials-track" id="testimonials-track">
+
+            <div class="testimonial-card">
+              <div class="t-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+              <p class="t-text">"AI kurs oluşturucu ile oryantasyon programımızı 3 günde hazırladık. Normalde 3 hafta
+                sürerdi. 2.500 çalışanımızı sisteme entegre ettik, tamamlanma oranı %94."</p>
+              <div class="t-author">
+                <div class="name">Fatma K. — IK Direktörü</div>
+                <div class="role">Üretim Sektörü, 2.500+ Çalışan • Bursa</div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="t-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+              <p class="t-text">"Öğrenci sayımız 340'tan 870'e çıktı. YKS başarı oranımız %28'den %51'e yükseldi. AI
+                quiz sistemi öğrencilerin zayıf noktalarını bizden önce tespit ediyor!"</p>
+              <div class="t-author">
+                <div class="name">Mehmet A. — Dershane Müdürü</div>
+                <div class="role">Özel Dershane • Konya</div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="t-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+              <p class="t-text">"İlk kursumu 9 günde oluşturdum. İlk ayda 320.000 TL ciro yaptım. Flash kart sistemi
+                sayesinde öğrencilerimin %92'si kursu tamamlıyor — sektör ortalaması %47."</p>
+              <div class="t-author">
+                <div class="name">Selin B. — Online Eğitim Girişimcisi</div>
+                <div class="role">DataScienceTR Akademi Kurucusu</div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="t-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+              <p class="t-text">"Uzaktan eğitim altyapımızı tamamen bu platform üzerine kurduk. 4.200 öğrencimiz
+                kesintisiz eğitim alıyor. Öğretim üyelerinin adaptasyonu beklenenden çok hızlı oldu."</p>
+              <div class="t-author">
+                <div class="name">Prof. Dr. Ahmet Y. — UEM Müdürü</div>
+                <div class="role">Devlet Üniversitesi • Ankara</div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="t-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+              <p class="t-text">"Optik okuma özelliği inanılmaz zaman kazandırıyor. Deneme sınavı sonuçlarını artık 10
+                dakikada analiz ediyoruz. AI öğrenci raporlaması harika."</p>
+              <div class="t-author">
+                <div class="name">Zeynep D. — Etüt Merkezi Sahibi</div>
+                <div class="role">Başarı Etüt Merkezi • İzmir</div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="t-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+              <p class="t-text">"Eğitim maliyetimiz yıllık %73 düştü. Çalışan memnuniyet skoru 3.2'den 4.7'ye çıktı.
+                Kurumsal eğitimde bu platformu tüm meslektaşlarıma tavsiye ediyorum."</p>
+              <div class="t-author">
+                <div class="name">Emre K. — Eğitim Koordinatörü</div>
+                <div class="role">Lojistik Firması • İstanbul</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="testimonials-controls">
+          <button class="t-btn" id="tPrev" aria-label="Önceki yorum">‹</button>
+          <div class="t-dots">
+            <div class="t-dot active"></div>
+            <div class="t-dot"></div>
+            <div class="t-dot"></div>
+            <div class="t-dot"></div>
+          </div>
+          <button class="t-btn" id="tNext" aria-label="Sonraki yorum">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     PRICING
+     ============================================================ -->
+    <section id="pricing" class="section section-darker" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="tag">💰 Fiyatlandırma</div>
+          <h2 id="pricing-title">Şeffaf Fiyat, <span class="text-accent">Gizli Ücret Yok</span></h2>
+          <p>Her ölçeğe uygun plan. İstediğiniz zaman yükseltin, istediğiniz zaman iptal edin.</p>
+        </div>
+
+        <div class="pricing-toggle animate-on-scroll">
+          <span>Aylık</span>
+          <div class="toggle-switch" id="pricingToggle" role="switch" aria-checked="false" tabindex="0">
+            <div class="toggle-thumb"></div>
+          </div>
+          <span>Yıllık <span class="pricing-discount">%20 İndirim</span></span>
+        </div>
+
+        <div class="pricing-grid animate-on-scroll">
+
+          <!-- Starter -->
+          <div class="pricing-card">
+            <div class="plan-name">Starter</div>
+            <div class="plan-price" data-monthly>
+              <span class="currency">₺</span>
+              <span class="amount">499</span>
+              <span class="period">/ay</span>
+            </div>
+            <div class="plan-price" data-yearly style="display:none">
+              <span class="currency">₺</span>
+              <span class="amount">399</span>
+              <span class="period">/ay · yıllık</span>
+            </div>
+            <div class="plan-desc">Küçük etüt ve kurs merkezleri için</div>
+            <div class="plan-divider"></div>
+            <ul class="plan-features">
+              <li class="plan-feature"><span class="check">✓</span> 100 öğrenci</li>
+              <li class="plan-feature"><span class="check">✓</span> 1 eğitmen</li>
+              <li class="plan-feature"><span class="check">✓</span> AI Kurs Oluşturucu</li>
+              <li class="plan-feature"><span class="check">✓</span> AI Quiz & Flash Kart (sınırlı)</li>
+              <li class="plan-feature"><span class="check">✓</span> Video Hosting (50 GB)</li>
+              <li class="plan-feature disabled"><span class="cross">✕</span> Canlı Ders</li>
+              <li class="plan-feature disabled"><span class="cross">✕</span> Blog & Podcast</li>
+              <li class="plan-feature disabled"><span class="cross">✕</span> White Label</li>
+            </ul>
+            <a href="#cta" class="btn btn-outline" id="pricing-starter">Ücretsiz Başla</a>
+          </div>
+
+          <!-- Growth -->
+          <div class="pricing-card">
+            <div class="plan-name">Growth</div>
+            <div class="plan-price" data-monthly>
+              <span class="currency">₺</span>
+              <span class="amount">999</span>
+              <span class="period">/ay</span>
+            </div>
+            <div class="plan-price" data-yearly style="display:none">
+              <span class="currency">₺</span>
+              <span class="amount">799</span>
+              <span class="period">/ay · yıllık</span>
+            </div>
+            <div class="plan-desc">Büyüyen dershane ve kurs merkezleri</div>
+            <div class="plan-divider"></div>
+            <ul class="plan-features">
+              <li class="plan-feature"><span class="check">✓</span> 500 öğrenci</li>
+              <li class="plan-feature"><span class="check">✓</span> 5 eğitmen</li>
+              <li class="plan-feature"><span class="check">✓</span> AI Kurs Oluşturucu</li>
+              <li class="plan-feature"><span class="check">✓</span> AI Quiz & Flash Kart (tam)</li>
+              <li class="plan-feature"><span class="check">✓</span> Canlı Ders & Sınav</li>
+              <li class="plan-feature"><span class="check">✓</span> Blog & Etkinlik Modülü</li>
+              <li class="plan-feature"><span class="check">✓</span> Özel Domain</li>
+              <li class="plan-feature disabled"><span class="cross">✕</span> White Label & Podcast</li>
+            </ul>
+            <a href="#cta" class="btn btn-outline" id="pricing-growth">Hemen Başla</a>
+          </div>
+
+          <!-- Pro (popular) -->
+          <div class="pricing-card popular">
+            <div class="popular-badge">⭐ En Popüler</div>
+            <div class="plan-name">Pro</div>
+            <div class="plan-price" data-monthly>
+              <span class="currency">₺</span>
+              <span class="amount">2.499</span>
+              <span class="period">/ay</span>
+            </div>
+            <div class="plan-price" data-yearly style="display:none">
+              <span class="currency">₺</span>
+              <span class="amount">1.999</span>
+              <span class="period">/ay · yıllık</span>
+            </div>
+            <div class="plan-desc">Online akademi ve kurumsal</div>
+            <div class="plan-divider"></div>
+            <ul class="plan-features">
+              <li class="plan-feature"><span class="check">✓</span> Sınırsız öğrenci</li>
+              <li class="plan-feature"><span class="check">✓</span> 25 eğitmen</li>
+              <li class="plan-feature"><span class="check">✓</span> AI Tüm Özellikler</li>
+              <li class="plan-feature"><span class="check">✓</span> White Label & Özel Domain</li>
+              <li class="plan-feature"><span class="check">✓</span> Podcast & Blog Modülü</li>
+              <li class="plan-feature"><span class="check">✓</span> SCORM / xAPI Desteği</li>
+              <li class="plan-feature"><span class="check">✓</span> Affiliate Programı</li>
+              <li class="plan-feature"><span class="check">✓</span> 7/24 Öncelikli Destek</li>
+            </ul>
+            <a href="#cta" class="btn btn-primary" id="pricing-pro">Demo Talep Et</a>
+          </div>
+
+          <!-- Enterprise -->
+          <div class="pricing-card">
+            <div class="plan-name">Enterprise</div>
+            <div class="plan-price" data-monthly>
+              <span class="amount" style="font-size:1.8rem;">Teklif</span>
+            </div>
+            <div class="plan-price" data-yearly style="display:none">
+              <span class="amount" style="font-size:1.8rem;">Teklif</span>
+            </div>
+            <div class="plan-desc">Üniversite ve büyük kurumlar</div>
+            <div class="plan-divider"></div>
+            <ul class="plan-features">
+              <li class="plan-feature"><span class="check">✓</span> Sınırsız her şey</li>
+              <li class="plan-feature"><span class="check">✓</span> Özel CSM (müşteri yöneticisi)</li>
+              <li class="plan-feature"><span class="check">✓</span> Özel entegrasyon (SAP, Oracle)</li>
+              <li class="plan-feature"><span class="check">✓</span> On-premise seçeneği</li>
+              <li class="plan-feature"><span class="check">✓</span> SLA garanti (%99.9)</li>
+              <li class="plan-feature"><span class="check">✓</span> Eğitim kurumu indirimi</li>
+              <li class="plan-feature"><span class="check">✓</span> Özelleştirilebilir AI modeli</li>
+              <li class="plan-feature"><span class="check">✓</span> Güvenlik denetimi dahil</li>
+            </ul>
+            <a href="#cta" class="btn btn-outline" id="pricing-enterprise">Teklif Al</a>
+          </div>
+
+        </div>
+
+        <p class="text-center text-muted animate-on-scroll" style="margin-top:32px; font-size:0.85rem;">
+          ✅ 14 gün ücretsiz deneme &nbsp;·&nbsp; ✅ Kredi kartı gerekmez &nbsp;·&nbsp; ✅ İstediğiniz zaman iptal
+          &nbsp;·&nbsp; ✅ Gizli ücret yok
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     FAQ
+     ============================================================ -->
+    <section id="faq" class="section section-dark" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="tag">💬 SSS</div>
+          <h2 id="faq-title">Sık Sorulan <span class="text-accent">Sorular</span></h2>
+          <p>Aklınızdaki soruları bulmak için kategori filtreleyin.</p>
+        </div>
+
+        <div class="faq-categories animate-on-scroll">
+          <button class="faq-cat-btn active" data-cat="all" id="faq-cat-all">Tümü</button>
+          <button class="faq-cat-btn" data-cat="platform" id="faq-cat-platform">Platform & Teknik</button>
+          <button class="faq-cat-btn" data-cat="ai" id="faq-cat-ai">Yapay Zeka</button>
+          <button class="faq-cat-btn" data-cat="fiyat" id="faq-cat-fiyat">Fiyat & Ödeme</button>
+          <button class="faq-cat-btn" data-cat="guvenlik" id="faq-cat-guvenlik">Güvenlik & KVKK</button>
+        </div>
+
+        <div class="faq-list animate-on-scroll animate-delay-1">
+
+          <div class="faq-item open" data-category="platform">
+            <button class="faq-question" id="faq-q1" aria-expanded="true">
+              <span>Platformu kurmak ne kadar sürer?</span>
+              <div class="faq-arrow">▾</div>
+            </button>
+            <div class="faq-answer">
+              <p>Standart kurulum <strong>24 saat içinde</strong> tamamlanır. Özel kurumsal entegrasyonlar (SAP, Oracle,
+                özel domain) 3-5 iş gününü alabilir. Uzman ekibimiz her adımda yanınızda; teknik bilgi gerekmez.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-category="platform">
+            <button class="faq-question" id="faq-q2" aria-expanded="false">
+              <span>Mevcut sistemlerimizle entegre olabilir mi?</span>
+              <div class="faq-arrow">▾</div>
+            </button>
+            <div class="faq-answer">
+              <p>Evet. SAP SuccessFactors, Oracle HCM, Workday, Zoom, Microsoft Teams, Slack ve 50+ uygulama ile hazır
+                entegrasyon mevcuttur. SCORM ve xAPI standartlarını da tam olarak destekliyoruz.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-category="ai">
+            <button class="faq-question" id="faq-q3" aria-expanded="false">
+              <span>AI kurs oluşturucu hangi formatları destekler?</span>
+              <div class="faq-arrow">▾</div>
+            </button>
+            <div class="faq-answer">
+              <p>PDF, Word (.docx), PowerPoint (.pptx), metin dosyaları (.txt) ve web URL'lerini doğrudan analiz
+                edebilir. AI içeriği saniyeler içinde işleyerek kurs yapısını, üniteler, hedefler ve açıklamalar
+                oluşturur.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-category="ai">
+            <button class="faq-question" id="faq-q4" aria-expanded="false">
+              <span>Flash kartlar ve quizler özelleştirilebilir mi?</span>
+              <div class="faq-arrow">▾</div>
+            </button>
+            <div class="faq-answer">
+              <p>Evet. AI tarafından oluşturulan tüm içerikler tam olarak düzenlenebilir. Soru tipi, zorluk seviyesi,
+                soru sayısı ve kategori ayarlanabilir. AI bir taslak sunar; son onay her zaman eğitmendedir.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-category="fiyat">
+            <button class="faq-question" id="faq-q5" aria-expanded="false">
+              <span>Gizli ücret var mı?</span>
+              <div class="faq-arrow">▾</div>
+            </button>
+            <div class="faq-answer">
+              <p>Kesinlikle hayır. Planınızda belirtilen ücret dışında hiçbir ek ücret talep edilmez. Öğrenci başına,
+                kurs başına, sertifika başına veya işlem başına ücret yoktur.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-category="fiyat">
+            <button class="faq-question" id="faq-q6" aria-expanded="false">
+              <span>14 gün ücretsiz deneme sonrasında ne olur?</span>
+              <div class="faq-arrow">▾</div>
+            </button>
+            <div class="faq-answer">
+              <p>Deneme süresi sonunda sizinle iletişime geçilir. Devam etmek isterseniz seçtiğiniz plana geçersiniz;
+                etmek istemezseniz verilerinizi dışa aktarabilir ve hesabı kapatabilirsiniz. Otomatik ücretlendirme
+                olmaz.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-category="guvenlik">
+            <button class="faq-question" id="faq-q7" aria-expanded="false">
+              <span>Verilerimiz nerede saklanıyor? KVKK uyumlu mu?</span>
+              <div class="faq-arrow">▾</div>
+            </button>
+            <div class="faq-answer">
+              <p>Tüm veriler <strong>Türkiye'deki ISO 27001 sertifikalı</strong> veri merkezlerinde saklanmaktadır.
+                Platform %100 KVKK uyumludur. 256-bit SSL şifreleme, iki faktörlü kimlik doğrulama ve düzenli güvenlik
+                denetimleri mevcuttur.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-category="platform">
+            <button class="faq-question" id="faq-q8" aria-expanded="false">
+              <span>Mobil uygulama var mı? Offline çalışıyor mu?</span>
+              <div class="faq-arrow">▾</div>
+            </button>
+            <div class="faq-answer">
+              <p>Evet, iOS ve Android uygulamaları mevcuttur. Öğrenciler içerikleri offline (internet olmadan)
+                indirebilir ve izleyebilir. Flash kartlar da offline çalışır.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+     CTA SECTION
+     ============================================================ -->
+    <section id="cta" class="section" aria-label="Demo talep formu">
+      <div class="cta-bg"></div>
+      <div class="container">
+        <div class="cta-inner animate-on-scroll">
+          <div class="tag" style="justify-content:center;">🚀 Hemen Başlayın</div>
+          <h2>Eğitiminizi Dijitale<br><span class="text-accent">Taşımaya Hazır mısınız?</span></h2>
+          <p>
+            Bugün başlayanlar yarın önde olur. Ücretsiz demonuzu alın —<br>
+            uzman ekibimiz ihtiyaçlarınızı dinleyerek size özel kurulum planı hazırlar.
+          </p>
+
+          <div class="cta-actions">
+            <a href="mailto:demo@datamin.ai" class="btn btn-primary btn-lg" id="cta-demo-btn">
+              🚀 Ücretsiz Demo Talep Et
+            </a>
+            <a href="tel:+902121234567" class="btn btn-outline btn-lg" id="cta-phone-btn">
+              📞 Bizi Arayın
+            </a>
+          </div>
+
+          <div class="cta-trust">
+            <span>⚡ Ortalama kurulum: 24 saat</span>
+            <span>🏆 1.200+ memnun kurum</span>
+            <span>✅ %99.9 uptime garantisi</span>
+            <span>🇹🇷 KVKK uyumlu</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+     FOOTER
+     ============================================================ -->
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="/" class="navbar-logo" aria-label="DataMin AI">
+            <div class="logo-icon">🧠</div>
+            <span class="logo-text">DataMin<span>AI</span></span>
+          </a>
+          <p>Yapay zeka destekli online eğitim platformu. Akademi, kurs, quiz, flash kart ve daha fazlası — tek çatı
+            altında. KVKK uyumlu, 7/24 Türkçe destek.</p>
+          <div class="footer-social">
+            <a href="#" class="social-btn" aria-label="Twitter/X">𝕏</a>
+            <a href="#" class="social-btn" aria-label="LinkedIn">in</a>
+            <a href="#" class="social-btn" aria-label="Instagram">📷</a>
+            <a href="#" class="social-btn" aria-label="YouTube">▶</a>
+            <a href="#" class="social-btn" aria-label="Podcast">🎙</a>
+          </div>
+        </div>
+
+        <!-- Çözümler -->
+        <div class="footer-col">
+          <h4>Çözümler</h4>
+          <ul>
+            <li><a href="#solutions">Kurumsal & İK</a></li>
+            <li><a href="#solutions">Dershaneler</a></li>
+            <li><a href="#solutions">Etüt Merkezleri</a></li>
+            <li><a href="#solutions">Üniversiteler</a></li>
+            <li><a href="#solutions">Online Akademi</a></li>
+            <li><a href="#solutions">Eğitmenler & Koçlar</a></li>
+          </ul>
+        </div>
+
+        <!-- Özellikler -->
+        <div class="footer-col">
+          <h4>Özellikler</h4>
+          <ul>
+            <li><a href="#ai-features">AI Kurs Oluşturucu</a></li>
+            <li><a href="#ai-features">Flash Kart & Quiz</a></li>
+            <li><a href="#features">Canlı Ders</a></li>
+            <li><a href="#features">Online Sınav</a></li>
+            <li><a href="#features">Gamification</a></li>
+            <li><a href="#features">Mobil Uygulama</a></li>
+          </ul>
+        </div>
+
+        <!-- Kaynaklar -->
+        <div class="footer-col">
+          <h4>Kaynaklar</h4>
+          <ul>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#events">Podcast</a></li>
+            <li><a href="#events">Webinarlar</a></li>
+            <li><a href="#testimonials">Vaka Çalışmaları</a></li>
+            <li><a href="#">Destek Merkezi</a></li>
+            <li><a href="#">API Dokümantasyon</a></li>
+          </ul>
+        </div>
+
+        <!-- Şirket -->
+        <div class="footer-col">
+          <h4>Şirket</h4>
+          <ul>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">Kariyer</a></li>
+            <li><a href="#">Basın & Medya</a></li>
+            <li><a href="#">İletişim</a></li>
+            <li><a href="#">Ortaklık Programı</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer-bottom">
+        <div>© 2026 DataMin AI. Tüm hakları saklıdır.</div>
+        <div class="kvkk-badge">🇹🇷 KVKK Uyumlu &nbsp;|&nbsp; ISO 27001</div>
+        <div class="footer-bottom-links">
+          <a href="#">Gizlilik Politikası</a>
+          <a href="#">Kullanım Şartları</a>
+          <a href="#">KVKK Aydınlatma</a>
+          <a href="#">Çerez Politikası</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Sayfanın başına git">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
